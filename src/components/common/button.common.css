@@ -1,0 +1,14 @@
+.mainButton {
+  width: 30px;
+  height: 100%;
+  background-color: #ffff;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.mainButton.mainButton--disable {
+  cursor: not-allowed;
+}

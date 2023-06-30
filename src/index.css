@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+p,
+h3,
+li {
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,16 @@
+.headerNavigation {
+  height: 64px;
+  margin-bottom: 15px;
+  padding: 16px 47px;
+  display: flex;
+  align-items: center;
+  z-index: 80;
+  position: relative;
+  background: rgb(0, 0, 0);
+}
+
+.headerNavigation__logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #ffff;
+}

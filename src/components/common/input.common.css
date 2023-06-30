@@ -1,0 +1,29 @@
+.inputContainer {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000;
+}
+
+.inputContainer span {
+  background: #000;
+  height: 100%;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.inputContainer__input {
+  width: 30px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.inputContainer__input.inputContainer__input--disable {
+  cursor: not-allowed;
+}
